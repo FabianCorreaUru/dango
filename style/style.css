@@ -1,0 +1,266 @@
+@media only screen and (min-width : 720px) {
+	.container {
+  		display: grid;
+ 		  grid-template-columns: repeat(1, 1fr);
+  		grid-gap: 1rem;
+	}
+}
+
+@media only screen and (min-width: 721px) and (max-width: 1200px) {
+	.container {
+  		display: grid;
+ 		  grid-template-columns: repeat(2, 1fr);
+  		grid-gap: 1rem;
+	}
+}
+
+@media only screen and (min-width : 1201px) {
+	.container {
+  		display: grid;
+ 		  grid-template-columns: repeat(4, 1fr);
+  		grid-gap: 1rem;
+	}
+}
+
+.item {
+	padding: 2rem;
+  	text-align: left;
+  	background-color: #ffffff;
+  	border: 3px solid #000000;  	
+}
+
+.head {
+	display: flex;
+	width: 100%;
+	color: #302E2C;
+	background-color: #302E2C;
+	border-radius: 15px;
+}
+
+.head .layout {
+	margin: 6% 6% 0 6%;
+	width: 86%;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+}
+
+.wrapper {
+  	display: grid;
+  	grid-template-columns: repeat(3, 1fr);
+}
+
+.box {
+ 	padding: 5px 8px;
+}
+
+.box1 {
+ 	grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 1;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 12px 10px 12px 10px;
+}
+
+.box2 {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 2;
+    font-size: 18px;
+    color: #ffffff;
+}
+
+.box3 {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 3;
+    grid-row-end: 3;
+    font-size: 14px;
+}
+
+.box4 {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 4;
+    grid-row-end: 4;
+    font-size: 13px;
+    font-weight: bold;
+    border-bottom: 1px solid #303030;
+    border-top: 1px solid #303030;
+}
+
+.box5 {
+    grid-column-start: 3;
+    grid-row-start: 4;
+    grid-row-end: 4;
+    border-bottom: 1px solid #303030;
+    border-left: 1px solid #303030;
+    border-top: 1px solid #303030;
+}
+
+.box6 {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 5;
+    grid-row-end: 5;
+    font-size: 9px;
+}
+
+.box7 {
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 5;
+    grid-row-end: 5;
+    font-size: 9px;
+    text-align: center;
+}
+
+.small {
+	font-size: 10px;
+	font-weight: normal;
+}
+
+.title {	  
+	font-size: 28px;
+	text-align: left;
+	padding-top: 15px;
+	padding-bottom: 30px;
+	color: #000000;
+}
+
+.flex-container {
+  	display: flex;
+}
+
+.price {
+	width: 30%;
+	text-align: left;
+	font-size: 24px;
+	font-weight: bold; 
+	color: #000000;
+}
+
+.quantity {
+	width: 15%;
+	margin-left: 5px;
+	text-align: center;	  
+	color: #606060;
+	border: 1px solid #606060;	
+}
+
+.description {	  
+	font-size: 20px;
+	color: #989898;
+}
+
+.button {
+	width: 60%;
+	margin: 30px 16% 10px 16%;
+	padding: 4%;
+	font-size: 24px;
+	text-align: center;	  
+	color: #000000;
+	border: 3px solid #000000;
+	background-color: #EAD7E5;
+}
+
+a {
+	display: block;
+	width: 60%;
+	margin: 10px 16% 20px 16%;
+	padding: 4%;
+	font-size: 26px;
+	text-align: center;
+	color: #000000;
+	text-decoration: underline;
+}
+
+.icon {
+	position: relative;
+	display: flex;
+  	left: 2%;
+  	width: 50px;
+  	margin-top: -20%; 
+}
+
+.wrapper-options {
+ 	display: grid;
+  	grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+}
+
+.option-button {
+  	text-align: center;
+  	border: 1px solid blue;
+  	padding: 20px;
+  	margin: 20px;
+  	font-size: 20px;
+  	font-weight: bold;
+  	color: #000000;
+  	border-radius: 10px;
+  	background-color: #80B3E6;
+  	cursor: pointer;
+}
+
+.option-button:hover {
+	color: #ffffff;
+    background-color: #004C99;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.turquoise {
+	background-color: #C6E1F3;
+}
+
+.turquoise .highlight {
+	background-color: #19A6BB;
+}
+
+.orange {
+	background-color: #F7F4E7;	
+}
+
+.orange .highlight {
+	background-color: #E2A305;	
+}
+
+.green {
+	background-color: #B9DBA4;
+}
+
+.green .highlight {
+	background-color: #74BF43;
+}
+
+.pink {
+	background-color: #ECD8EC;
+}
+
+.pink .highlight {
+	background-color: #CBAFD4;
+}
+
+.green2 {
+	background-color: #B8DAA4;
+}
+
+.green2 .highlight {
+	background-color: #73C042;
+}
+
+.pink2 {
+	background-color: #ECDAE7;
+}
+
+.pink2 .highlight {
+	background-color: #CBAFD4;
+}
+
+.blue {
+	background-color: #80B3E6;
+}
+
+.blue .highlight {
+	background-color: #004C99;
+}
